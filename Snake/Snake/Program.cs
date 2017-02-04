@@ -36,11 +36,10 @@ namespace Snake
 
 
 
-            /* Point p1 = new Point(1,3,'*');
-            p1.Draw();
+            Point p = new Point(1,1,'*');
+            Snake snake = new Snake(p,4,Direction.RIGHT);
+            snake.Drow();
 
-            Point p2 = new Point(3,5,'#');
-            p2.Draw();*/
 
 
             Console.ReadLine();
