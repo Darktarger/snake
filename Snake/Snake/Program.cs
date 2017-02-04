@@ -16,7 +16,7 @@ namespace Snake
             Point p2 = new Point(3,5,'#');
             p2.Draw();
 
-            HorizontalLine line = new HorizontalLine();
+            HorizontalLine line = new HorizontalLine(0,79,1,'#');
             line.Drow();
 
             Console.ReadLine();
